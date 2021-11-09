@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ButtonView: View {
+    
     let title: String
     let color: Color
     let action: () -> Void
@@ -18,20 +19,13 @@ struct ButtonView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-                .frame(width: 170, height: 35)
         }
-        .frame(width: 200, height: 60)
-        .background(color)
-        .cornerRadius(20)
-        .overlay(
-            RoundedRectangle(cornerRadius: 20)
-                .stroke(Color.black, lineWidth: 4)
-        )
+        .buttonAppearance(color)
     }
 }
 
-struct ButtonView_Previews: PreviewProvider {
+struct ActionButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonView(title: "Push", color: .green, action: {})
+        ButtonView(title: "Some Action", color: .red, action: {})
     }
 }

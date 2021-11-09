@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CC3EB0427330FF300363A85 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3EB0327330FF300363A85 /* StorageManager.swift */; };
+		9CA6288F273AFEDE0096315B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6288E273AFEDE0096315B /* TimerView.swift */; };
+		9CA62891273B00360096315B /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA62890273B00360096315B /* ButtonAppearanceModifier.swift */; };
+		9CC3EB0427330FF300363A85 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3EB0327330FF300363A85 /* DataManager.swift */; };
 		9CC5744A273469280079627A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC57449273469280079627A /* ButtonView.swift */; };
-		9CC5744C27346D220079627A /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5744B27346D220079627A /* StartButtonView.swift */; };
-		9CC5744E27346E8A0079627A /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5744D27346E8A0079627A /* LogOutButtonView.swift */; };
 		A83D795727305C9E000317F2 /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D795627305C9E000317F2 /* StateAndDataFlowApp.swift */; };
-		A83D795927305C9E000317F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D795827305C9E000317F2 /* ContentView.swift */; };
 		A83D795B27305CA2000317F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83D795A27305CA2000317F2 /* Assets.xcassets */; };
 		A83D795E27305CA2000317F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83D795D27305CA2000317F2 /* Preview Assets.xcassets */; };
 		A83D7965273062E7000317F2 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D7964273062E7000317F2 /* TimeCounter.swift */; };
@@ -22,13 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CC3EB0327330FF300363A85 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		9CA6288E273AFEDE0096315B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		9CA62890273B00360096315B /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
+		9CC3EB0327330FF300363A85 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		9CC57449273469280079627A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		9CC5744B27346D220079627A /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
-		9CC5744D27346E8A0079627A /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
 		A83D795327305C9E000317F2 /* StateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83D795627305C9E000317F2 /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
-		A83D795827305C9E000317F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A83D795A27305CA2000317F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83D795D27305CA2000317F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A83D7964273062E7000317F2 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
@@ -70,13 +68,12 @@
 				A83D795627305C9E000317F2 /* StateAndDataFlowApp.swift */,
 				A83D796A27306CFC000317F2 /* StarterView.swift */,
 				A83D7966273068E6000317F2 /* RegisterView.swift */,
-				A83D795827305C9E000317F2 /* ContentView.swift */,
-				9CC5744B27346D220079627A /* StartButtonView.swift */,
-				9CC5744D27346E8A0079627A /* LogOutButtonView.swift */,
-				9CC57449273469280079627A /* ButtonView.swift */,
+				9CA6288E273AFEDE0096315B /* TimerView.swift */,
 				A83D7964273062E7000317F2 /* TimeCounter.swift */,
+				9CA62890273B00360096315B /* ButtonAppearanceModifier.swift */,
+				9CC57449273469280079627A /* ButtonView.swift */,
 				A83D796827306A53000317F2 /* UserManager.swift */,
-				9CC3EB0327330FF300363A85 /* StorageManager.swift */,
+				9CC3EB0327330FF300363A85 /* DataManager.swift */,
 				A83D795A27305CA2000317F2 /* Assets.xcassets */,
 				A83D795C27305CA2000317F2 /* Preview Content */,
 			);
@@ -161,13 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC5744C27346D220079627A /* StartButtonView.swift in Sources */,
-				A83D795927305C9E000317F2 /* ContentView.swift in Sources */,
-				9CC5744E27346E8A0079627A /* LogOutButtonView.swift in Sources */,
+				9CA62891273B00360096315B /* ButtonAppearanceModifier.swift in Sources */,
 				A83D7967273068E6000317F2 /* RegisterView.swift in Sources */,
 				9CC5744A273469280079627A /* ButtonView.swift in Sources */,
 				A83D796B27306CFC000317F2 /* StarterView.swift in Sources */,
-				9CC3EB0427330FF300363A85 /* StorageManager.swift in Sources */,
+				9CA6288F273AFEDE0096315B /* TimerView.swift in Sources */,
+				9CC3EB0427330FF300363A85 /* DataManager.swift in Sources */,
 				A83D7965273062E7000317F2 /* TimeCounter.swift in Sources */,
 				A83D796927306A53000317F2 /* UserManager.swift in Sources */,
 				A83D795727305C9E000317F2 /* StateAndDataFlowApp.swift in Sources */,

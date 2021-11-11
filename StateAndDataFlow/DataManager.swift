@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-//final class DataManager: ObservableObject {
-//    @AppStorage("name") var name = ""
-//    @AppStorage("status") var status = false
-//}
-
 class DataManager {
     
     static let shared = DataManager()
